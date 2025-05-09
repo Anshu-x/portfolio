@@ -18,7 +18,7 @@ export default function Hero() {
     const ctx = canvas.getContext("2d");
 
     let stars = [];
-    const numStars = window.innerWidth < 768 ? 40 : 80;
+    const numStars = window.innerWidth < 768 ? 20 : 80;
 
     const createStars = () => {
       stars = Array.from({ length: numStars }, () => ({
