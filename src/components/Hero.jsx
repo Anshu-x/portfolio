@@ -111,7 +111,7 @@ export default function Hero() {
 
       {/* Name with Glitch Effect */}
       <motion.h1
-        className={`text-[clamp(50px,12vw,90px)] font-extrabold bg-clip-text text-transparent bg-linear-to-r from-indigo-600 via-blue-700 to-blue-900 drop-shadow-[0_5px_20px_rgba(255,255,255,0.1)] ${glitch ? "glitch" : ""}`}
+        className={`text-[clamp(50px,12vw,90px)] font-extrabold bg-clip-text text-transparent bg-linear-to-b from-indigo-400 via-indigo-600 to-black-900 drop-shadow-[0_5px_20px_rgba(255,255,255,0.1)] ${glitch ? "glitch" : ""}`}
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
